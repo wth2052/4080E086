@@ -1,3 +1,17 @@
+
+5
+
+
+lab@906f0d80ad09:/tmp$ /opt
+-bash: /opt: Is a directory
+lab@906f0d80ad09:/tmp$ cd /opt
+lab@906f0d80ad09:/opt$ cd secret
+-bash: cd: secret: Not a directory
+lab@906f0d80ad09:/opt$ vi secret^C
+lab@906f0d80ad09:/opt$
+
+BreakALLCTF{TPLGKbWxmutGtecSSpo1}
+
 6
 lab@906f0d80ad09:/tmp/4080E086$ ^C
 lab@906f0d80ad09:/tmp/4080E086$
